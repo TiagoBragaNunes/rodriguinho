@@ -1,0 +1,48 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink;
+  }
+  
+  /* Container for content */
+  .container {
+    text-align: center;
+    color: white;
+  }
+  
+  /* Title styling */
+  h1 {
+    font-size: 3rem;
+    color: yellow;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+  }
+  
+  /* Paragraph and button styling */
+  p {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Link styled as a button */
+  .button {
+    font-size: 1.2rem;
+    padding: 0.7rem 1.5rem;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+  }
+  
